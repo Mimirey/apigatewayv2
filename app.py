@@ -9,7 +9,6 @@ load_dotenv()
 app = Flask(__name__)
 
 # Konfigurasi AWS
-#update trigger buat deploy
 AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
 AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
 AWS_SESSION_TOKEN = os.getenv("AWS_SESSION_TOKEN")
